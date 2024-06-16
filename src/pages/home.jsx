@@ -35,11 +35,10 @@ export function Home() {
                 color="white"
                 className="mb-6 font-black mt-12"
               >
-                Experience the Future AI  With <span className="text-red-900"> EDU
-                </span>  AI
+                 Revolutionize Your Study Experience with <span className="text-red-900">EDU</span> AI
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80 mt-0">
-                Boost your front desk with our AI Receptionist for better customer service and smoother operations.
+              Harness AI to Transcribe, Summarize, and Quiz Effortlessly.
               </Typography>
               <button onClick={handleGetStarted} variant="gradient" size="sm" fullWidth className="p-4 text-white bg-red-900 mt-6 rounded-sm pt-2 pb-2">Get Started</button>
             </div>
@@ -117,9 +116,13 @@ export function Home() {
                     About us
                   </Typography>
                   <Typography className="mb-8 font-normal text-blue-gray-500">
-                    Edu-AI is a cutting-edge AI receptionist solution based in Helsinki, Finland. Our team of experts is dedicated to providing businesses with innovative and efficient ways to manage their front desk operations. The goal of our business plan is to provide an AI receptionist service that can be accessed by organizations of all sizes.
+                  Edu-AI is a cutting-edge self-learning web application transforming how individuals learn through advanced AI technology. We specialize in creating personalized, interactive learning experiences for users of all ages and backgrounds.
+
+Our AI-powered assistant converts educational content into detailed transcriptions, concise summaries, and interactive Q&A sessions. This innovative approach enhances comprehension and retention, optimizing the learning process.
+
+Our strength lies in seamlessly integrating AI with educational resources to deliver customized study materials and automated assessments. Edu-AI aims to lead the AI-driven education market by providing a reliable and impactful learning tool.
                     <br />
-                    <br /> Our AI receptionist will be able to do jobs including taking phone calls, making appointments, and giving consumer’s information. Our ability to apply AI to enhance the effectiveness and accuracy of our receptionist service, which will save businesses time and money, will be our competitive advantage. We want to lead the AI receptionist market by offering a dependable and effective service.
+                    <br /> 
                   </Typography>
                 </div>
                 <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
@@ -142,9 +145,9 @@ export function Home() {
                       </Typography>
                       <Typography className="font-normal text-blue-gray-500">
                         <ul>
-                          <li>Experience the Future AI Receptionist.</li>
-                          <li>Efficiently manage your front desk with our AI Receptionist.</li>
-                          <li>Enhance customer experience and streamline operations</li>
+                          <li>AI-Powered Learning Assistant: Transforms educational content with advanced AI technology.</li>
+                          <li>Personalized Study Experience: Tailors materials and assessments to individual needs.</li>
+                          <li>Efficient and Accessible Learning: Optimizes learning processes for all users.</li>
                         </ul>
                       </Typography>
                     </CardBody>

@@ -6,38 +6,41 @@ import {
 
 export const contactData = [
   {
-    title: "Streamlined Solutions: Powering Efficiency with AI Receptionists",
+    title: "AI-Powered Learning Assistance: Enhancing Educational Efficiency",
     icon: BriefcaseIcon,
     description:
-      "Our AI receptionist service in Helsinki, Finland efficiently manages receptionist tasks using advanced artificial intelligence. From answering calls to scheduling appointments and managing visitor registrations, streamline operations and enhance customer experience while saving on staffing costs",
+      "Our AI-powered learning assistant optimizes the learning experience with advanced technology. From generating study aids like transcriptions and summaries to offering personalized assessments, Edu-AI boosts learning efficiency and comprehension.",
   },
   {
-    title: "Tailored Assistance: Your Business, Your Way with AI Support",
+    title: "Personalized Learning Paths: Tailored Education for Every Learner",
     icon: BriefcaseIcon,
-    description: "Tailored support in Helsinki with customizable greetings, information exchange, appointment details, and language settings. Our AI service offers flexible call routing options to meet your business needs.",
-
+    description:
+      "Edu-AI offers personalized learning paths that cater to individual learning styles and preferences. Whether it's adaptive learning modules or customized study materials, learners benefit from tailored educational experiences.",
   },
   {
-    title: "Elevate Experience: Welcome Customers with Our Friendly AI Service",
+    title: "Interactive and Accessible Learning: Engaging Users Across Platforms",
     icon: BriefcaseIcon,
-    description: "Our AI receptionist ensures every interaction in Helsinki leaves a positive impression. With friendly demeanor and intuitive responses, it fosters satisfaction and trust in your brand.",
+    description:
+      "Our platform ensures interactive and accessible learning experiences for users of all backgrounds. With intuitive interfaces and engaging content, Edu-AI promotes effective learning interactions and knowledge retention.",
   },
   {
-    title: "Precision Partner: Trustworthy Info Courtesy of Our AI Receptionist",
+    title: "Accurate Learning Insights: Data-Driven Educational Support",
     icon: BriefcaseIcon,
-    description: "Trained to provide accurate, up-to-date information about your company and offerings, our AI receptionist in Helsinki ensures customers receive the right information."
+    description:
+      "Edu-AI provides accurate insights into learning progress and performance. Through data analytics and assessment tools, educators and learners gain valuable feedback for continuous improvement.",
   },
   {
-    title: "Effortless Excellence: Efficiency, Savings, and Satisfaction with AI",
+    title: "Efficiency in Education: Streamlined Processes for Optimal Learning",
     icon: BriefcaseIcon,
-    description: "Beyond cost-saving, our AI receptionist in Helsinki saves time and boosts satisfaction. By automating tasks and providing quick responses, it enhances customer service, loyalty, and operational efficiency."
+    description:
+      "Beyond traditional learning methods, Edu-AI streamlines educational processes to save time and enhance learning outcomes. It integrates seamlessly into educational environments, supporting educators and learners alike.",
   },
   {
-    title: "Seamless Synergy: Revolutionizing Operations with AI Integration",
+    title: "Innovative Learning Solutions: Revolutionizing Education with AI Integration",
     icon: BriefcaseIcon,
-    description: "Seamlessly integrate our AI receptionist system into your operations in Helsinki. From setup to management, it optimizes efficiency, streamlines processes, and enhances productivity.",
+    description:
+      "Integrate Edu-AI's innovative learning solutions into your educational framework. From setup to implementation, our AI-driven platform enhances educational effectiveness, empowers educators, and engages learners.",
   },
-
-]
+];
 
 export default contactData;
