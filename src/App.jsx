@@ -1,19 +1,18 @@
-import { Routes, Route, Navigate, useLocation } from "react-router-dom";
-import { Navbar } from "@/widgets/layout";
-import routes from "@/routes";
-
+import React from 'react';
+import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
+import { Navbar } from '@/widgets/layout';
+import routes from '@/routes';
 
 function App() {
   const { pathname } = useLocation();
 
   return (
-    <>
-      {!(pathname == '/sign-in' || pathname == '/sign-up') && (
+    <div className="h-screen">
+      {!(pathname === '/sign-in' || pathname === '/sign-up') && (
         <div className="container fixed bg-black left-2/4 z-10 mx-auto -translate-x-2/4 p-4 rounded-xl">
           <Navbar routes={routes} />
         </div>
-      )
-      }
+      )}
       <Routes>
         {routes.map(
           ({ path, element }, key) =>
@@ -21,7 +20,7 @@ function App() {
         )}
         <Route path="*" element={<Navigate to="/home" replace />} />
       </Routes>
-    </>
+    </div>
   );
 }
 
